@@ -31,7 +31,8 @@ if (ImGui::Button("Save"))
 ImGui::InputText("string", buf, IM_ARRAYSIZE(buf));
 ImGui::SliderFloat("float", &f, 0.0f, 1.0f);
 ```
-
+Resultat:
+<br>![sample code output (dark)](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/v175/capture_readme_styles_0001.png)
 Code:
 ```cpp
 // Create a window called "My First Tool", with a menu bar.
