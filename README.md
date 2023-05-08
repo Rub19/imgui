@@ -32,6 +32,8 @@ ImGui::InputText("string", buf, IM_ARRAYSIZE(buf));
 ImGui::SliderFloat("float", &f, 0.0f, 1.0f);
 ```
 
+Code:
+```cpp
 // Create a window called "My First Tool", with a menu bar.
 ImGui::Begin("My First Tool", &my_tool_active, ImGuiWindowFlags_MenuBar);
 if (ImGui::BeginMenuBar())
@@ -59,6 +61,7 @@ ImGui::BeginChild("Scrolling");
 for (int n = 0; n < 50; n++)
     ImGui::Text("%04d: Some text", n);
 ImGui::EndChild();
-ImGui::End(); 
+ImGui::End();
+```
 Resultat:
-<br>![sample code output (dark)](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/v175/capture_readme_styles_0001.png) ![sample code output (light)](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/v175/capture_readme_styles_0002.png)
+<br>![sample code output](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/v180/code_sample_04_color.gif)
