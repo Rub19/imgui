@@ -66,3 +66,7 @@ ImGui::End();
 ```
 Resultat:
 <br>![sample code output](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/v180/code_sample_04_color.gif)
+
+### Versions & Changelogs
+Consultez la page des [versions](https://github.com/ocornut/imgui/releases).
+Lire les Changelogs  est un bon moyen de rester à jour avec les fonctionnalités que Dear ImGui offre, et peut-être vous donnera des idées de certaines fonctionnalités que vous avez ignorées jusqu'à présent !
