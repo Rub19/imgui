@@ -15,3 +15,9 @@ Cher ImGui convient particulièrement à l'intégration dans des moteurs de jeux
 - Portable, minimise les dépendances, fonctionne sur la cible (consoles, téléphones, etc.).
 - Consommation efficace en termes d'exécution et de mémoire.
 - Testé en combat, utilisé par de nombreux acteurs majeurs de l'industrie du jeu.
+
+### Usage Utilisation 
+
+Le cœur de Dear ImGui est autonome et contenu dans quelques fichiers indépendants de la plate-forme que vous pouvez facilement compiler dans votre application/moteur. Ce sont tous les fichiers situés dans le dossier principal du référentiel (imgui*.cpp, imgui*.h).
+
+Aucun processus de compilation spécifique n'est requis. Vous pouvez ajouter les fichiers .cpp à votre projet existant.
