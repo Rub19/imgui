@@ -21,3 +21,13 @@ Cher ImGui convient particulièrement à l'intégration dans des moteurs de jeux
 Le cœur de Dear ImGui est autonome et contenu dans quelques fichiers indépendants de la plate-forme que vous pouvez facilement compiler dans votre application/moteur. Ce sont tous les fichiers situés dans le dossier principal du référentiel (imgui*.cpp, imgui*.h).
 
 Aucun processus de compilation spécifique n'est requis. Vous pouvez ajouter les fichiers .cpp à votre projet existant.
+
+
+Code:
+```cpp
+ImGui::Text("Hello, world %d", 123);
+if (ImGui::Button("Save"))
+    MySaveFunction();
+ImGui::InputText("string", buf, IM_ARRAYSIZE(buf));
+ImGui::SliderFloat("float", &f, 0.0f, 1.0f);
+```
